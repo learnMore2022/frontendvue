@@ -75,9 +75,9 @@ const Projects = ref([
         category: 'Mobile App',
         image: 'src/assets/mobile.jpg',
         title: 'project 1',
-        description: 'This is the core jar or platform of master card which is consumed by all the other Api of master card
+          description: `This is the core jar or platform of master card which is consumed by all the other Api of master card.
                         • We build a common functionality which will be used by all the Api.
-                        • Anything new approach or Research on implementation of new functionality is handled by this team for master card!',
+                        • Anything new approach or Research on implementation of new functionality is handled by this team for master card!`,
         technologies: ['J2EE', 'Spring', 'Hibernate', 'Rest', 'Soap', 'Apache camel', 'Maven', 'Agile'],
         gitURL: '',
         webURL: ''

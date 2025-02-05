@@ -58,15 +58,15 @@ import { ref } from 'vue';
 const education=ref([
     {
         id:1,
-        School:'school 1',
-        program:'Software Engineer',
-        year:'2022'
+        School:'Graduation',
+        program:'Bachelor Of Engineering',
+        year:'2012'
     },
     {
         id:2,
-        School:'school 2',
-        program:'Software Engineer',
-        year:'2020'
+        School:'school',
+        program:'vidya bharati chinmaya vidyalaya',
+        year:'2008'
     }
 ])
 </script>

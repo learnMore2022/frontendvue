@@ -65,8 +65,8 @@ const Projects = ref([
         category: 'web development',
         image: 'src/assets/project.png',
         title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        description: 'This is the core sales tools used for creating the quote. SalgsNøkkelen is a web-based application used by the Sales team of Tryg. The insurance sellers login to this application through KundeNøkkelen and can create /view/ update/ reject offers, created for customers before offering it to them. Apart from sellers in Tryg, SalgsNøkkelen is also used by insurance sellers from Nordea bank, Enter - a car insurance company, both of whom have tie-ups with Tryg for providing insurance to their customers and ‘Franchise ’s in Norway.Insurance sellers from Tryg and Enter/ Nordea bank login to SalgsNøkklen from KundeNøkkelen Sellers from Nordea bank , can also login via other interfaces but are redirected to the SN’s login page.!',
+        technologies: ['struts', 'java', 'spring', 'Hibernate', 'Rest', 'Soap', 'RMI', 'java script', 'Maven', 'Agile'],
         gitURL: '',
         webURL: ''
     },
@@ -75,8 +75,10 @@ const Projects = ref([
         category: 'Mobile App',
         image: 'src/assets/mobile.jpg',
         title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        description: 'This is the core jar or platform of master card which is consumed by all the other Api of master card
+                        • We build a common functionality which will be used by all the Api.
+                        • Anything new approach or Research on implementation of new functionality is handled by this team for master card!',
+        technologies: ['J2EE', 'Spring', 'Hibernate', 'Rest', 'Soap', 'Apache camel', 'Maven', 'Agile'],
         gitURL: '',
         webURL: ''
     },
@@ -85,8 +87,8 @@ const Projects = ref([
         category: 'web development',
         image: 'src/assets/project.png',
         title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        description: 'SPEED(Solution pricing and end to end design)- It is a part of GS portal .This tool is use to provide end to end design creation as per customer requirement in UK, from customer creation to quote creation, pricing and end up in generating reports and BOM(Billing of Material )which is fed to the lower system. For fulfilment of order. Troubleshoot complex Enterprise networks.',
+        technologies: ['vue.js 3', 'J2EE', 'Spring', 'Hibernate', 'Rest', 'Soap', 'Apache camel', 'Maven', 'Agile'],
         gitURL: '',
         webURL: ''
     },
@@ -95,8 +97,8 @@ const Projects = ref([
         category: 'Mobile App',
         image: 'src/assets/mobile.jpg',
         title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        description: 'RSQE(Refactor Sales Quote Engine) this is a sales quoting engine which quote a price of the component by interacting with various different api based on the user selected requirement.',
+        technologies: ['vue.js 3', 'J2EE', 'Spring', 'Hibernate', 'Rest', 'Soap', 'Apache camel', 'Maven', 'Agile'],
         gitURL: '',
         webURL: ''
     },
@@ -105,21 +107,12 @@ const Projects = ref([
         category: 'web development',
         image: 'src/assets/project.png',
         title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        description: 'RDE(Risk Decision Engine) this has two journey one in fraud and other is credit based on the input fetched from different service we decide the whether the customer is eligible for card or not.!',
+        technologies: ['vue.js 3', 'J2EE', 'Spring', 'Hibernate', 'Rest', 'Soap', 'Apache camel', 'Maven', 'Agile','LUCY(Rule Engine)'],
         gitURL: '',
         webURL: ''
     },
-    {
-        id: 6,
-        category: 'Mobile App',
-        image: 'src/assets/mobile.jpg',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
-    }
+  
 ]);
 
 const selectedCategory = ref('all');

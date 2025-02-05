@@ -1,4 +1,4 @@
-<template >
+<template>
     <section class="text-white mt-18" id="about">
         <div class="absolute z-0 top-[93rem] inset-x-0 h-64 flex items-start">
             <div class="h-24 w-64 bg-gradient-to-br from-primary via-secondary blur-2xl to-[#570cac] opacity-20"></div>
@@ -8,8 +8,7 @@
                 <h2 class="text-4xl font-bold text-white text-left mb-8">My Education</h2>
                 <div class="space-y-8 py-8">
                     <div v-for="element in education" :key="element.id"
-                    class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
-                    >
+                        class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]">
                         <div class="w-1/4">
                             <img src="https://img.icons8.com/ios-glyphs/60/ffffff/graduation-cap--v1.png" alt="graduation-cap--v1">
                         </div>
@@ -28,41 +27,41 @@
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">About</span>
                     Me
                 </h2>
-                <p class="text-base lg:text-lg mt-8 py-8"> Experienced consultant, specializing in server side Java and integration, with a demonstrated history of working in the BFSI and Telecom domain. Over 10 years' experience with Java and it’s framework.
+                <p class="text-base lg:text-lg mt-8 py-8"> Experienced consultant, specializing in server-side Java and integration, with a demonstrated history of working in the BFSI and Telecom domain. Over 10 years' experience with Java and its framework.
                 </p>
                 <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
                         <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
-                        <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
+                        <p class="text-sm sm:text-base text-gray-300">Happy Clients</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
                         <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+300</h3>
-                        <p class="text-sm sm:text-base text-gray-300">Project</p>
+                        <p class="text-sm sm:text-base text-gray-300">Projects</p>
                     </div>
-
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
                         <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+7</h3>
-                        <p class="text-sm sm:text-base text-gray-300"> Years Experience</p>
+                        <p class="text-sm sm:text-base text-gray-300">Years Experience</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </template>
+
 <script setup>
 import { ref } from 'vue';
-const education=ref([
+const education = ref([
     {
-        id:1,
-        School:'Graduation',
-        program:'Bachelor Of Engineering',
-        year:'2012'
+        id: 1,
+        School: 'Graduation',
+        program: 'Bachelor Of Engineering',
+        year: '2012'
     },
     {
-        id:2,
-        School:'school',
-        program:'vidya bharati chinmaya vidyalaya',
-        year:'2008'
+        id: 2,
+        School: 'School',
+        program: 'Vidya Bharati Chinmaya Vidyalaya',
+        year: '2008'
     }
-])
+]);
 </script>

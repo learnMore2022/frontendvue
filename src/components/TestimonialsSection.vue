@@ -54,34 +54,23 @@ const breakpoints =ref({
 const testimonials=ref([
     {
         id:1,
-        fullName:'client 1',
+        fullName:'sharvil kumar singh',
         image:'src/assets/image.png',
-        comment:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minima reprehenderit maiores itaque molestiae optio, voluptatibus iusto eos doloremque consectetur!'
+        comment:'Working with Sourabh was an absolute pleasure. His expertise in web development is unparalleled, and he delivered a website that exceeded our expectations. The project was completed on time and within budget, and the final product is both visually stunning and highly functional. I highly recommend Sourabh for any web development needs!'
     },
     {
         id:2,
-        fullName:'client 2',
+        fullName:'sonam onkarnath tripathi',
         image:'src/assets/image.png',
-        comment:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minima reprehenderit maiores itaque molestiae optio, voluptatibus iusto eos doloremque consectetur!'
+        comment:'Sourabh's mobile development skills are top-notch. He transformed our app concept into a fully functional and visually appealing product. The entire process was smooth, and Sourabh was always available to address our concerns and provide valuable insights. Our app has received fantastic feedback from users, and we couldn't be happier with the results. Highly recommend Sourabh for any mobile development projects'
     },
     {
         id:3,
-        fullName:'client 3',
+        fullName:'sukriti singh',
         image:'src/assets/image.png',
-        comment:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minima reprehenderit maiores itaque molestiae optio, voluptatibus iusto eos doloremque consectetur!'
+        comment:'Sourabh's technical writing skills are exceptional. He took complex technical concepts and translated them into easy-to-understand documentation that our users love. His attention to detail and ability to communicate effectively made a significant impact on our project's success. I highly recommend Sourabh for any technical writing needs!'
     },
-    {
-        id:4,
-        fullName:'client 4',
-        image:'src/assets/image.png',
-        comment:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minima reprehenderit maiores itaque molestiae optio, voluptatibus iusto eos doloremque consectetur!'
-    },
-    {
-        id:5,
-        fullName:'client 5',
-        image:'src/assets/image.png',
-        comment:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minima reprehenderit maiores itaque molestiae optio, voluptatibus iusto eos doloremque consectetur!'
-    },
+   
 ])
 </script>
 <style >

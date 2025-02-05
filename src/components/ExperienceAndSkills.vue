@@ -55,33 +55,61 @@ const Skills =ref([
     },
     {
         id:2,
-        name:'Python',
+        name:'Java',
         width:'70%'
     },
     {
         id:3,
-        name:'JavaScript',
+        name:'JavaScript & vue.js',
         width:'98%'
     },
     {
         id:4,
-        name:'figma',
+        name:'Spring framework',
         width:'91%'
+    },
+    {
+        id:5,
+        name:'design pattern',
+        width:'70%'
+    },
+    {
+        id:6,
+        name:'System design',
+        width:'80%'
     },
 ]);
 
 const Experinces =ref([
     {
         id:1,
-        role:'Software Engineer',
-        company:'Microsoft',
-        date:'Mar 2023 - September 2024'
+        role:'Tech Lead',
+        company:'Tata Consultancy Services Limited',
+        date:'Feb 2023 - PRESENT.'
     },
     {
         id:2,
-        role:'Frontend Developer',
-        company:'Spotify',
-        date:'Mar 2022 - September 2023'
+        role:Senior Software Developer',
+        company:'Fulcrum worldwide software private limited',
+        date:'Jan 2022 - Feb 2023'
+    },
+     {
+        id:3,
+        role:Consultant',
+        company:'Virtusa consulting services',
+        date:'Nov 2018 - Dec 2021'
+    },
+    {
+        id:4,
+        role:Associate Consultant Technology',
+        company:'Nityo Infotech',
+        date:'May 2018 - Nov 2018'
+    },
+     {
+        id:5,
+        role:Software Engineery',
+        company:'Fervid technology solutions',
+        date:'Nov 2014 – May 2018'
     },
 ])
 </script>

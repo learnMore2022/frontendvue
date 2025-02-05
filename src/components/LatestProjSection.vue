@@ -124,8 +124,3 @@ const filteredProjects = computed(() => {
 })
 
 </script>
-    }
-    return Projects.value.filter(project => project.category.toLocaleLowerCase() === selectedCategory.value.toLocaleLowerCase());
-})
-
-</script>

@@ -31,37 +31,25 @@ const services =ref([
         id:1,
         icon:'https://img.icons8.com/ios-filled/100/ffffff/google-code.png',
         name:'WEB DEVELOPMENT',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
+        description:'I offer professional web development services to help you create sophisticated, reliable, and user-friendly websites and applications. Whether you need a simple landing page or a complex web application, I have the skills and experience to bring your vision to life. Let's connect and discuss how we can build an exceptional online presence for you!!'
     },
     {
         id:2,
         icon:'https://img.icons8.com/external-vectorslab-glyph-vectorslab/100/fffeee/external-Technical-Writing-mobile-app-development-vectorslab-glyph-vectorslab.png',
         name:'Technical Writing',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
+        description:'I provide expert technical writing services to help you create clear, concise, and comprehensive documentation. Whether you need user manuals, API documentation, or technical guides, I have the expertise to deliver high-quality content that meets your needs. Let's connect and discuss how we can enhance your technical documentation!!'
     },
     {
         id:3,
         icon:'https://img.icons8.com/external-solid-design-circle/100/ffffff/external-Mobile-Development-digital-marketing-solid-design-circle.png',
         name:'Mobile Development',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
+        description:'I offer comprehensive mobile development services to help you create high-quality, reliable, and user-friendly mobile applications. Whether you need an app for iOS, Android, or both, I have the expertise to deliver a seamless and engaging user experience. Let's connect and discuss how we can bring your mobile app ideas to life!'
     },
     {
         id:4,
         icon:'https://img.icons8.com/ios-filled/100/ffffff/email-open.png',
         name:'WEB DEVELOPMENT',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
-    },
-    {
-        id:5,
-        icon:'https://img.icons8.com/ios-filled/100/ffffff/windows10-personalization.png',
-        name:'Graphic Design',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
-    },
-    {
-        id:6,
-        icon:'https://img.icons8.com/ios-filled/100/ffffff/web-design.png',
-        name:'Web Design',
-        description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
+        description:' I offer professional web development services to help you create sophisticated, reliable, and user-friendly websites and applications. Whether you need a simple landing page or a complex web application, I have the skills and experience to bring your vision to life. Let's connect and discuss how we can build an exceptional online presence for you!'
     },
     ])
 </script>

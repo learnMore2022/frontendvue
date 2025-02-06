@@ -25,7 +25,7 @@
                         </div>
                         <div class="ml-5 text-white">
                             <h4>Phone</h4>
-                            <p>+x47-45579104</p>
+                            <p>+47-45579104</p>
                         </div>
                     </div>
                     <div class="flex mb-10 items-center">
